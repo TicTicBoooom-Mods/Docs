@@ -51,9 +51,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'mm/intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Masterful Machinery',
+          },
+          {
+            type: 'doc',
+            docId: 'twerk/intro',
+            position: 'left',
+            label: 'Twerk It Meal',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
