@@ -40,4 +40,4 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET }}
         AWS_S3_BUCKET: wiki.ticticboooom.live
         SOURCE_DIR: ./build/
-        DEST_DIR: /
+        DEST_DIR: ""
