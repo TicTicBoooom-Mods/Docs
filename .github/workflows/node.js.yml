@@ -33,3 +33,10 @@ jobs:
       with:
         name: doc-build
         path: build
+    - name: Upload S3
+      uses: shallwefootball/upload-s3-action@v1.1.3
+      with:
+        aws_key_id: ${{ secrets.AWS_KEY }}
+        aws_secret_access_key: ${{ secrets.AWS_SECRET }}
+        aws_bucket: wiki.ticticboooom.live
+        source_dir: ./build
