@@ -1,0 +1,26 @@
+---
+title: Config
+sidebar_position: 2
+---
+
+```json
+#Whether to show particles or not when crouching to grow things
+showParticles = true
+#whether to enable the whitelist this does not disable the blacklist
+useWhiteList = false
+#growables to disable crouching on
+blacklist = ["minecraft:netherrack", "minecraft:grass_block", "minecraft:warped_nylium", "minecraft:crimson_nylium", "minecraft:tall_grass", "botanypots", "gaiadimension", "minecraft:grass", "minecraft:fern", "botania:white_mystical_flower", "botania:orange_mystical_flower", "botania:magenta_mystical_flower", "botania:light_blue_mystical_flower", "botania:yellow_mystical_flower", "botania:lime_mystical_flower", "botania:pink_mystical_flower", "botania:gray_mystical_flower", "botania:light_gray_mystical_flower", "botania:cyan_mystical_flower", "botania:purple_mystical_flower", "botania:blue_mystical_flower", "botania:brown_mystical_flower", "botania:green_mystical_flower", "botania:red_mystical_flower", "botania:black_mystical_flower"]
+#growables to enable crouching on (only works if 'useWhiteList' is true and will give exclisivity to those growables)
+whitelist = []
+#the minimum number of crouches before the bonemeal is applied (bonemeal is applied randomly so this will not be exact)
+#Range: > 0
+minCrouchesToApplyBonemeal = 5
+#The radius of effect in blocks of applying the growth effect. Not recommended to change due to performance.
+#Range: 0 ~ 20
+effectRadius = 5
+#When true only saplings are allowed to grow with twerking
+saplingsOnly = false
+#The chance of growth effect being applied from sprinting
+#Range: 0.0 ~ 1.0
+sprintGrowChance = 0.15
+```
