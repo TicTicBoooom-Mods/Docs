@@ -3,4 +3,38 @@ sidebar_position: 1
 title: Config File
 ---
 
-some info about the config file here
+```json
+{
+	"controllerId": "intermediate_tut",
+	"textureOverride": "minecraft:block/obsidian",
+	"name": "Master Machine",
+	"ports": [
+		{
+			"type": "masterfulmachinery:energy",
+			"name": "RF Energy",
+			"id": "battery",
+			"data": {
+				"capacity": 1000000000
+			}
+		},
+		{
+			"type": "masterfulmachinery:mekanism_gas",
+			"name": "MekGas",
+			"id": "mekgas",
+			"data": {
+				"capacity": 100000
+			}
+		},
+		{
+			"type": "masterfulmachinery:pncr_pressure",
+			"name": "PneumaticcraftPressure",
+			"id": "pncrair",
+			"data": {
+				"volume": 5000,
+				"dangerPressure": 10,
+				"criticalPressure": 30
+			}
+		}
+	]
+}
+```
