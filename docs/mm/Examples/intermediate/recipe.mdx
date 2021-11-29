@@ -5,4 +5,55 @@ title: Recipe File
 
 # Recipe File
 
-some info about the recipe file here
+```json
+{
+	"type": "masterfulmachinery:machine_process",
+	"structureId": "intermediate_tut_structure",
+	"controllerId": "intermediate_tut",
+	"ticks": 100,
+	"inputs": [
+		{
+			"type": "masterfulmachinery:energy",
+			"data": {
+				"amount": 69420
+			}
+		},
+		{
+			"type": "masterfulmachinery:mekanism_gas",
+			"data": {
+				"gas": "mekanismgenerators:tritium",
+				"amount": 69420
+			}
+		},
+		{
+            "type": "masterfulmachinery:pncr_pressure",
+			"consumePerTick": true,
+            "data":{
+                "air": 2
+            }
+        }
+	],
+	"outputs": [
+		{
+			"type": "masterfulmachinery:energy",
+			"data": {
+				"amount": 42069101
+			}
+		},
+		{
+			"type": "masterfulmachinery:mekanism_gas",
+			"data": {
+				"gas": "mekanismgenerators:fusion_fuel",
+				"amount": 404
+			}
+		},
+		{
+            "type": "masterfulmachinery:pncr_pressure",
+			"PerTick": true,
+            "data":{
+                "air": 8
+            }
+        }
+	]
+}
+```
