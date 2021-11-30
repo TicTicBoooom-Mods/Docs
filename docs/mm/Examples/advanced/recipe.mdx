@@ -5,4 +5,157 @@ title: Recipe File
 
 # Recipe File
 
-some info about the recipe file here
+```json
+{
+	"type": "masterfulmachinery:machine_process",
+	"structureId": "melonpillar_structure",
+	"controllerId": "advanced_tut",
+	"ticks": 100,
+	"inputs": [
+		{
+			"type": "masterfulmachinery:items",
+			"perTick": true,
+			"consumeInstantly": true,
+			"data": {
+				"item": "minecraft:orange_wool",
+				"count": 2
+			}
+		},
+		{
+			"type": "masterfulmachinery:energy",
+			"chance": 0.99,
+			"data": {
+				"amount": 69420
+			}
+		},
+		{
+			"type": "masterfulmachinery:fluids",
+			"chance": 0,
+			"data": {
+				"fluid": "minecraft:lava",
+				"amount": 420
+			}
+		},
+		{
+			"type": "masterfulmachinery:mekanism_gas",
+			"chance": 0.3,
+			"data": {
+				"gas": "mekanismgenerators:tritium",
+				"amount": 69420
+			}
+		},
+		{
+			"type": "masterfulmachinery:mekanism_slurry",
+			"chance": 0.01,
+			"data": {
+				"slurry": "mekanism:clean_osmium",
+				"amount": 69420
+			}
+		},
+		{
+			"type": "masterfulmachinery:mekanism_infuse",
+			"data": {
+				"infuse": "mekanism:refined_obsidian",
+				"amount": 159644
+			}
+		},
+		{
+            "type": "masterfulmachinery:create_rotation",
+			"consumePerTick": true,
+            "data": {
+                "speed": 32
+            }
+        },
+		{
+            "type": "masterfulmachinery:pncr_pressure",
+			"consumePerTick": true,
+            "data":{
+                "air": 2
+            }
+        },
+		{
+            "type": "masterfulmachinery:astral_starlight",
+            "data":{
+                "amount": 300
+            }
+        },
+		{
+            "type": "masterfulmachinery:botania_mana",
+            "data":{
+                "amount": 300
+            }
+        }
+	],
+	"outputs": [
+		{
+			"type": "masterfulmachinery:items",
+			"chance": 0.9,
+			"data": {
+				"item": "minecraft:nether_star",
+				"count": 32
+			}
+		},
+		{
+			"type": "masterfulmachinery:energy",
+			"chance": 0.33,
+			"data": {
+				"amount": 42069101
+			}
+		},
+		{
+			"type": "masterfulmachinery:fluids",
+			"data": {
+				"fluid": "minecraft:lava",
+				"amount": 420
+			}
+		},
+		{
+			"type": "masterfulmachinery:mekanism_gas",
+			"data": {
+				"gas": "mekanismgenerators:fusion_fuel",
+				"amount": 404
+			}
+		},
+		{
+			"type": "masterfulmachinery:mekanism_slurry",
+			"data": {
+				"slurry": "mekanism:clean_gold",
+				"amount": 42069
+			}
+		},
+		{
+			"type": "masterfulmachinery:mekanism_infuse",
+			"data": {
+				"infuse": "mekanism:refined_obsidian",
+				"amount": 69420
+			}
+		},
+		{
+            "type": "masterfulmachinery:create_rotation",
+			"PerTick": true,
+            "data":{
+                "speed": 10
+            }
+        },
+		{
+            "type": "masterfulmachinery:pncr_pressure",
+			"PerTick": true,
+            "data":{
+                "air": 8
+            }
+        },
+		{
+            "type": "masterfulmachinery:astral_starlight",
+            "data":{
+                "amount": 123456
+            }
+        },
+		{
+            "type": "masterfulmachinery:botania_mana",
+            "data":{
+                "amount": 300
+            }
+        }
+	]
+}
+```
